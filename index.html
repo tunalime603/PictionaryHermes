@@ -12,7 +12,6 @@
       <button onclick="getDrawPrescript()">I am drawing</button>
       <button onclick="getDescPrescript()">I am describing</button>
       <p id="prescript" class="prescript"></p>
-      <img src="potential.png" alt="GIVE EVERYONE POTENTIAL">
     </div>
     <script>
       const drawPrescripts = [
@@ -78,7 +77,8 @@
         "If safe, perform the action described.",
         "Illustrate every subject very Kawaii Desu.",
         "Turn every human being into your favorite sinner.",
-        "Every object in the scene must be illustrated like cheap presentation clip art."
+        "Every object in the scene must be illustrated like cheap presentation clip art.",
+        "Illustrate in the style of a 4 panel magazine comic."
         ];
       const descPrescripts = [
         "You must explain the artwork as though you have only read about it in an archeology report.",
@@ -157,8 +157,7 @@
         "Disperse brainrot terms into your description.",
         "Create a haiku describing the artwork.",
         "Describe the image using Archived terms.",
-        "Type... your... description... like... this...",
-        "
+        "Type... your... description... like... this..."
         ];
       function getDescPrescript(type) {
         const container = document.getElementById("prescript");
